@@ -1,0 +1,1156 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+}
+nav ul {
+  width: 100%;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav ul li {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 2em;
+}
+
+/* Aca empieza contenidos generaloes y de navbar*/
+.navbar {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 4px;
+}
+
+.logo {
+  width: 30%;
+  font-size: 1.6em;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.navlinks {
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+img {
+  width: 100%;
+}
+
+/* Aca empieza contenido del Inicio sin media quiery*/
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(../IMAGENES/Programador6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-left: 1%;
+  padding-right: 1%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.Titulo {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 20%;
+  font-size: 2em;
+  color: white;
+}
+
+.h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+nav ul li:hover {
+  background-color: hsla(216deg, 57%, 53%, 0.76);
+  transition: 0.7s;
+  color: aliceblue;
+  border-radius: 5px;
+}
+
+a:hover {
+  color: #fff;
+}
+
+/* Aca empieza el primer contenedor del main */
+main {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.primerContenedor {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo1 {
+  width: 100%;
+  height: 500px;
+  font-size: 1.7em;
+  color: black;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagenTitu1 {
+  width: 45%;
+  height: 300px;
+}
+
+#img1 {
+  border-radius: 5px;
+}
+
+.conteDescrip {
+  width: 45%;
+  height: 300px;
+  padding: 10px;
+}
+
+.metodologias {
+  width: 95%;
+  height: 100px;
+  font-size: 2em;
+  color: black;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+  margin: 2%;
+  font-style: italic;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.segundoContenedor {
+  margin-top: 10px;
+  width: 100%;
+  height: 500px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 1.5em;
+  color: black;
+}
+
+.card {
+  margin: 20px;
+  color: black;
+  font-size: 1.3em;
+  border-radius: 10px;
+}
+
+.card-text {
+  padding: 10px;
+}
+
+h3 {
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Aca empieza Contenido del footer */
+footer {
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 5px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.seccionFooter {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1.3em;
+}
+
+.slogan {
+  width: 20%;
+  color: #fff;
+}
+
+.subMenu {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.subLiks {
+  width: 20%;
+  margin: 30px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subLiks ul li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.contactoSub {
+  width: 20%;
+  margin: 30px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+}
+
+.iconos {
+  width: 33%;
+  height: 100px;
+  margin: 30px;
+}
+
+.contenedorIcon {
+  width: 95%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  margin-top: 40px;
+}
+
+.contenedorIcon img {
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+}
+
+.footerSub {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+/* Aca empieza  html Servicios*/
+.contenedorServicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(../IMAGENES/Programador4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-left: 1%;
+  padding-right: 1%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.segundoContenedor2 {
+  margin-top: 10px;
+  width: 100%;
+  height: 1000px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 1.5em;
+  color: black;
+}
+
+.Servicios2 p {
+  color: black;
+  font-size: 1.7em;
+}
+
+.Servicios2 h2 {
+  font-size: 3em;
+  margin: 20px;
+}
+
+.Servicios2 {
+  width: 80% px;
+  margin: 10px;
+  margin-top: 40px;
+  height: 400px;
+  padding: 30px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4);
+  background: rgba(255, 255, 255, 0.1);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  transition: all 300ms;
+  color: black;
+}
+
+/* Aca empieza  html Acerca */
+.contenedorAcerca {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(../IMAGENES/Programador3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-left: 1%;
+  padding-right: 1%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.contenedor2 {
+  width: 90%;
+  height: 400px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor2 h2 {
+  text-align: center;
+  font-size: 2em;
+  padding: 30px;
+}
+
+.paises {
+  width: 90%;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.paises ul {
+  margin: 5px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.paises ul li {
+  margin: 15px;
+  font-size: 1.7em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-style: italic;
+}
+
+/* Aca empieza  el contenido de Contacto */
+.contenedorContacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(../IMAGENES/Contacto5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-left: 1%;
+  padding-right: 1%;
+  box-sizing: border-box;
+}
+
+.contact-box {
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  height: 80vh;
+}
+
+.left {
+  height: 100%;
+}
+
+.right {
+  padding: 25px 40px;
+}
+
+h2 {
+  position: relative;
+  padding: 0 0 10px;
+  margin-bottom: 10px;
+}
+
+h2:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 50px;
+  border-radius: 2px;
+  background-color: hsla(216deg, 57%, 53%, 0.76);
+}
+
+.textarea {
+  width: 100%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  outline: none;
+  background-color: rgba(230, 230, 230, 0.6);
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  margin-bottom: 22px;
+  transition: 0.3s;
+  border-radius: 4px;
+}
+
+.textarea:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  min-height: 150px;
+}
+
+.boton {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: hsla(216deg, 57%, 53%, 0.76);
+  color: #fff;
+  font-size: 1.1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.boton:hover {
+  background-color: hsla(216deg, 94%, 45%, 0.856);
+}
+
+.textarea:focus {
+  border: 2px solid rgba(30, 85, 250, 0.47);
+  background-color: #fff;
+}
+
+/* Aca empieza contenido de Ayuda*/
+.contenedorAyuda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(../IMAGENES/Programador11.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-left: 1%;
+  padding-right: 1%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.contenidosAyuda {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-size: 1.7em;
+  width: 100%;
+}
+
+.primerContenedorAyuda {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.seccion2Ayuda {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.titulo1A {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  color: hsla(216deg, 57%, 53%, 0.76);
+  font-weight: 600;
+  font-size: 2em;
+}
+
+.titulo2 {
+  width: 40%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.titulo2 h2 {
+  color: hsla(216deg, 57%, 53%, 0.76);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* Desde aca para adelante intente hacer las adptaciones 
+movile first pero boostrap me pisa todo y me ah tocado reformular muchas cosas y hasta volver a reescribir codigo */
+header {
+  grid-area: header;
+}
+
+.navbar {
+  grid-area: nav;
+}
+
+.contenedor {
+  grid-area: contenedor;
+}
+
+.primerContenedor {
+  grid-area: contenedor1;
+}
+
+.metodologias {
+  grid-area: metodologias;
+}
+
+.segundoContenedor {
+  grid-area: contenedor2;
+}
+
+footer {
+  grid-area: footer;
+}
+
+.seccion2Ayuda {
+  display: grid;
+  grid-area: "seccion2Ayuda";
+}
+
+.contenedor1 {
+  display: grid;
+  grid-area: "contenedor1";
+}
+
+.paises {
+  display: grid;
+  grid-area: "paises";
+}
+
+/* Comienza grilla Inicio
+ Y cominezan las adaptaciones de la Navbar y de los footer de los 5 HTML ya que utilice las misma clases asi reciclo la mayor cantidad de codigo posible */
+@media (min-width: 278px) {
+  .contePrinci {
+    display: grid;
+    margin-bottom: 1.4em;
+    grid-template-areas: "header" "nav" "contenedor" "contenedor1" "metodologias" "contenedor2" "footer";
+  }
+  .contenedor1 {
+    display: grid;
+    grid-template-areas: "contenedor1";
+    grid-template-columns: 1fr;
+  }
+  .Servicios2 {
+    width: 95%;
+    height: 850px;
+  }
+  .contenedor2 {
+    height: 1200px;
+  }
+  .paises ul {
+    display: flex;
+    flex-direction: column;
+  }
+  /*seccion ayuda */
+  .seccion2Ayuda {
+    display: grid;
+    grid-template-areas: "seccion2Ayuda";
+    grid-template-columns: 1fr;
+  }
+  .titulo2 {
+    width: 100%;
+  }
+  /* Aca empieza estilos primer breacpoint de navbar*/
+  .navbar {
+    height: 200px;
+  }
+  .logo {
+    width: 70%;
+    height: 70px;
+    margin-top: 10px;
+  }
+  .logo ul li {
+    width: 100%;
+  }
+  nav {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .navlinks {
+    width: 100%;
+  }
+  .navlinks ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .logo ul li a {
+    font-size: 1.5em;
+  }
+  .navlinks ul li a {
+    font-size: 1.2em;
+  }
+  .navlinks ul {
+    width: 100%;
+    margin: 1%;
+    padding: 1%;
+  }
+  .navlinks ul li {
+    margin: 5px;
+    padding: 5px;
+  }
+  .primerContenedor {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+  }
+  .contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../IMAGENES/Programador6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-left: 1%;
+    padding-right: 1%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  .metodologias2 {
+    margin-top: 5px;
+    height: 80px;
+    width: 90%;
+    height: 100px;
+    font-size: 2em;
+    color: black;
+    -webkit-text-decoration: solid;
+            text-decoration: solid;
+    margin: 5%;
+    font-style: italic;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .titulo1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-items: center;
+  }
+  .imagenTitu1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #img1 {
+    width: 80%;
+    height: auto;
+  }
+  .conteDescrip {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .metodologias {
+    margin-top: 350px;
+    margin-bottom: 50px;
+  }
+  .container {
+    margin-bottom: 800px;
+  }
+  .segundoContenedor {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .segundoContenedor2 {
+    margin-bottom: 1600px;
+  }
+  .card {
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1em;
+  }
+  /* Aca empieza estilos de el formulario de contacto*/
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .contact-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+  }
+  .left {
+    width: 100%;
+    height: 270px;
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+  }
+  .left img {
+    width: 100%;
+  }
+  .right {
+    margin-top: 0;
+  }
+  /* Aca empieza estilos del footer*/
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .seccionFooter {
+    display: flex;
+    flex-direction: column;
+  }
+  .slogan {
+    width: 80%;
+    color: #fff;
+  }
+  .subMenu {
+    width: 100%;
+  }
+  .subLiks {
+    padding: 5px;
+    margin: 5px;
+  }
+  .contactoSub {
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+  }
+  .iconos {
+    text-align: center;
+    width: 100%;
+  }
+}
+@media (min-width: 501px) {
+  .contePrinci {
+    display: grid;
+    margin-bottom: 1.4em;
+    grid-template-areas: "header" "nav" "contenedor" "contenedor1" "metodologias" "contenedor2" "footer ";
+    grid-template-columns: 1fr;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2em;
+  }
+  .paises ul {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+  }
+  /* Aca empieza los estilos de formulario de contacto*/
+  .container1 {
+    width: 90%;
+  }
+  .Servicios2 {
+    height: 700px;
+  }
+  .contenedor2 {
+    height: 850px;
+  }
+  /* esta es de servicios*/
+  .segundoContenedor2 {
+    margin-bottom: 2000px;
+  }
+  .navlinks ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .navlinks ul li a {
+    font-size: 1.5em;
+  }
+  .metodologias {
+    margin-top: 200px;
+  }
+  .subMenu {
+    display: flex;
+    justify-content: space-around;
+  }
+  .seccionFooter {
+    font-size: 1.4em;
+  }
+  .slogan h3 {
+    margin: 40px;
+    font-size: 1.5em;
+  }
+  /* grilla de formulario de contacto*/
+  .container1 {
+    display: grid;
+    grid-area: "container1";
+  }
+}
+@media (min-width: 501px) and (min-width: 768px) {
+  .contePrinci {
+    display: grid;
+    margin-bottom: 1.4em;
+    grid-template-areas: "header header header" "nav nav nav" "contenedor contenedor contenedor" "contenedor1 contenedor1 contenedor1" "metodologias metodologias metodologias" "contenedor2 contenedor2 contenedor2" "footer footer footer";
+    grid-template-columns: 1fr;
+  }
+  .metodologias {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .container1 {
+    width: 90%;
+  }
+  .Servicios2 {
+    width: 98%;
+    height: 400px;
+  }
+  .contenedor2 {
+    height: 500px;
+  }
+  .seccion2Ayuda {
+    grid-template-areas: "seccion2Ayuda seccion2Ayuda";
+    grid-template-columns: 1fr 1fr;
+  }
+  .titulo2 {
+    width: 90%;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container1 {
+    display: grid;
+    grid-template-areas: "container1" "container1" "container1";
+    grid-template-columns: 1fr 1fr;
+  }
+  .left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .left img {
+    width: 80%;
+    height: 500px;
+  }
+  .contact-box {
+    width: 80%;
+  }
+  .titulo1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .segundoContenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .segundoContenedor2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .segundoContenedor2 {
+    margin-bottom: 100px;
+  }
+  .logo {
+    font-size: 2.2em;
+  }
+  .navlinks ul li a {
+    font-size: 1.8em;
+  }
+  .container {
+    margin-bottom: 1000px;
+  }
+  .seccionFooter {
+    font-size: 1.4em;
+  }
+  .slogan h3 {
+    margin: 40px;
+    font-size: 1.8em;
+  }
+  .navbar {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 4px;
+  }
+  nav {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+  }
+  .logo {
+    width: 30%;
+    font-size: 1.6em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .navlinks {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+  }
+  .navlinks ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+  }
+  .navlinks ul li {
+    margin: 10px;
+    padding: 10px;
+  }
+  nav {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+  }
+  nav ul {
+    width: 100%;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav ul li {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.7em;
+  }
+  .conteDescrip {
+    width: 100%;
+  }
+  .conteDescrip h2 {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+  .imagenTitu1 {
+    width: 100%;
+  }
+  .container {
+    margin-bottom: 100px;
+  }
+  footer {
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .seccionFooter {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.3em;
+  }
+  .slogan {
+    width: 20%;
+    color: #fff;
+  }
+  .subMenu {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .subLiks {
+    width: 20%;
+    margin: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .subLiks ul li a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  .contactoSub {
+    width: 20%;
+    margin: 30px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+  }
+  .iconos {
+    width: 33%;
+    height: 100px;
+    margin: 30px;
+  }
+  .contenedorIcon {
+    width: 95%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    margin-top: 40px;
+  }
+  .contenedorIcon img {
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+  }
+  .footerSub {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.5em;
+    color: #fff;
+  }
+}/*# sourceMappingURL=estilos.css.map */
