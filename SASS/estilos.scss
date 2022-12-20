@@ -166,7 +166,18 @@ main{
     color: black;
     font-size: 1.3em;
     border-radius: 10px;
+
     
+}
+
+.card:hover{
+    color: #fff;
+    background-color: hsla(0, 0%, 0%, 0.76);
+    transition-property: all;
+    transition-duration: 1s;
+    transform: translateY(-50px);
+    
+
 }
 .card-text{
     padding: 10px;
@@ -929,6 +940,11 @@ footer{
 
 }
 
+.container{
+    margin-bottom: 900px;
+}
+
+
 .paises ul {
     display: flex;
     flex-direction: row;
@@ -951,7 +967,7 @@ footer{
 /* esta es de servicios*/
 
 .segundoContenedor2{
-    margin-bottom: 2000px;
+    margin-bottom: 2600px;
 
 }
 .navlinks ul{
@@ -1050,12 +1066,12 @@ footer{
         justify-content: flex-end;
     }
     .left img{
-        width: 80%;
+        width: 85%;
         height: 500px;
         
     }
     .contact-box{
-        width: 80%;
+        width: 85%;
     }
 .titulo1{
     display: grid;
